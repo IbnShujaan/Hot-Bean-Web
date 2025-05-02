@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #d84315;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff7043;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+}
+
+.profile-block {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #d84315;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #d84315;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.course-link {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.logo{
+    color: teal;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar{
+display: flex;
+gap: 20px;
+}
+
+.nav-item a{
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+background-color: teal;
+}
+
+.nav-item :hover{
+    background-color: green;
+}
+
+.hero-section{
+    background-image:url(BGimage.PNG) ;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 50px 20px;
+}
+.btn{
+    background-color: teal;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(170, 78, 16);
+}
+
+.content{
+padding:20px ;
+text-align: center ;
+}
+
+.Goals{
+    background-color: rgb(219, 156, 73);
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    font-size: 21px
+    
+}
+.Goals h3{
+    color: teal;
+}
+.Goals p {
+    color: rgb(4, 90, 90);
+    font-size: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    background-color:rgb(45, 145, 145);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 250px;
+
+}
+.cards h3{
+    color: aqua;
+}
+.card p {
+    color: blue;
+}
+.footer{
+    background-color: rgb(224, 67, 28);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: large;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
